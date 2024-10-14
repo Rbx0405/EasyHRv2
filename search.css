@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    /* Full height of the viewport */
+}
+
+.left-side {
+    width: 70%;
+    background-color: #08C2FF;
+    padding: 20px;
+}
+
+.divider {
+    width: 1px;
+    background-color: #000;
+}
+
+.right-side {
+    width: 30%;
+    background-color: lightblue;
+    padding: 20px;
+}
