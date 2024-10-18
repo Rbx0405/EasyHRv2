@@ -4,7 +4,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: #f6f5f7;
+    background: lightblue;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-    background: #fff;
+    background: #08C2FF;
     border-radius: 10px;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 
                 0 10px 10px rgba(0, 0, 0, 0.22);
@@ -30,8 +30,8 @@ h1 {
 button {
     width: 100%;
     padding: 10px;
-    background-color: #ff4b2b;
-    color: white;
+    background-color: lightblue;
+    color: black;
     border: none;
     cursor: pointer;
     border-radius: 20px;
