@@ -17,7 +17,7 @@ body {
 .left-side {
     width: 70%;
     background-color: #08C2FF;
-    padding: 20px;
+    padding: 65px;
 }
 
 .divider {
@@ -28,5 +28,5 @@ body {
 .right-side {
     width: 30%;
     background-color: lightblue;
-    padding: 20px;
+    padding-top: 65px;
 }

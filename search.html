@@ -4,10 +4,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>70-30 Layout</title>
+    <title>Search</title>
     <link rel="stylesheet" href="search.css">
     <link rel="stylesheet" href="index.css">
-    
+    <style>
+
+.search-container {
+    display: flex;
+    align-items: center;
+    background-color: #08C2FF;
+    padding: 10px;
+    border-radius: 25px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    background-color: #eee;
+    font-size: 16px;
+    margin-right: 10px;
+
+}
+
+button {
+    flex-shrink: 0;
+    padding: 10px 20px;
+    background-color: lightblue;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.hello {
+    background: none;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 25px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    background-color: #eee;
+    font-size: 16px;
+    margin-right: 10px;
+
+}
+
+
+    </style>
 </head>
 
 <body>
@@ -47,7 +111,20 @@
         </div>
         <div class="divider"></div>
         <div class="right-side">
-            <p>This is the right side, taking 30% of the width.</p>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Enter your text..">
+                <button onclick="performSearch()">Search</button>
+            </div>
+        </div>
+        <div class="right-side">
+            <div class="hello">
+                <input type="text" id="searchInput" >
+                
+            </div>
+        </div>
+            <p id="result"></p>
+            
+            <script src="searchbar.js"></script>
         </div>
     </div>
 </body>

@@ -5,7 +5,6 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f4f4f4;
 }
 
 .search-container {
@@ -18,7 +17,6 @@ body {
 }
 
 input[type="text"] {
-    width: 250px;
     padding: 10px;
     border: none;
     border-radius: 25px;
@@ -39,7 +37,7 @@ button {
 }
 
 button:hover {
-    background-color: #ff416c;
+    background-color: darkblue;
 }
 
 #result {
